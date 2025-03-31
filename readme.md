@@ -43,14 +43,8 @@ A Power BI dashboard was created to visualize the key insights derived from the 
 ### Screenshot of the Dashboard:
 ![Power BI Dashboard Screenshot](reports/dashboard_screenshot.png)
 
-## Key Insights
-- **Industry Trends**: The top 5 industries account for over 70% of global billionaire wealth, with the **Technology** and **Finance** sectors leading.
-- **Wealth Distribution**: A significant concentration of wealth is held by a small percentage of billionaires, highlighting global wealth inequality.
-- **Demographics**: The majority of billionaires are over 50 years old, with a large proportion originating from the United States and China.
-
 ## Future Improvements
-- Integrating additional data sources, such as **philanthropic activities** of billionaires, could provide a more holistic view of wealth redistribution.
-- Adding **interactive filters** to the Power BI dashboard for a deeper exploration of individual billionaire data by sector, country, and age group.
+- **Connect the Power BI dashboard to a data source**: Enabling the dashboard to be refreshed and updated automatically as new data becomes available would enhance its functionality and ensure that insights remain up to date.
 
 ## Requirements
 To run the SQL scripts and Power BI file, you will need the following:
