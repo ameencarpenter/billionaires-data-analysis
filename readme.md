@@ -14,7 +14,7 @@ This project analyzes [dataset name] to uncover insights on [topic]. The analysi
 - [License](#license)
 
 ## Dataset
-- **Source**: [[Link to Kaggle dataset]](https://www.kaggle.com/datasets/nelgiriyewithana/billionaires-statistics-dataset)
+- **Source**: [Link to Kaggle dataset](https://www.kaggle.com/datasets/nelgiriyewithana/billionaires-statistics-dataset)
 - **Description**: Brief overview of the data
 - **Files**:
   - `data/raw_data.csv` - Raw dataset
