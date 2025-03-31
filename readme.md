@@ -44,7 +44,7 @@ A Power BI dashboard was created to visualize key insights from the dataset. The
 - **Demographics**: Provides insights into the age, gender, and nationality distribution of billionaires.
 
 ### Screenshot of the Dashboard:
-![Power BI Dashboard Screenshot](PowerBI/dashboard_screenshot.png)
+![Power BI Dashboard Screenshot](reports/dashboard_screenshot.png)
 
 ## Key Insights
 - **Industry Trends**: The top 5 industries account for over 70% of global billionaire wealth, with the **Technology** and **Finance** sectors leading.
