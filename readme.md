@@ -41,7 +41,7 @@ The SQL scripts are organized into three key steps:
 A Power BI dashboard was created to visualize the key insights derived from the dataset. The dashboard provides interactive elements that allow users to explore various trends and relationships within the data, such as distribution by industry, wealth, and demographic information.
 
 ### Screenshot of the Dashboard:
-![Power BI Dashboard Screenshot](reports/dashboard_screensho.png)
+![Power BI Dashboard Screenshot](reports/dashboard_screenshot.png)
 
 ## Future Improvements
 - **Connect the Power BI dashboard to a data source**: Enabling the dashboard to be refreshed and updated automatically as new data becomes available would enhance its functionality and ensure that insights remain up to date.
