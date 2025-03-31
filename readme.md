@@ -1,71 +1,65 @@
-# Data Analysis Project
 
-## Project Overview
-This project analyzes [dataset name] to uncover insights on [topic]. The analysis includes data extraction, transformation, and visualization using MySQL and Power BI.
+# Billionaires Statistics Analysis
 
-## Table of Contents
-- [Dataset](#dataset)
-- [Technologies Used](#technologies-used)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Project Structure](#project-structure)
-- [Results](#results)
-- [Contributing](#contributing)
-- [License](#license)
+## Overview
+This project analyzes the **Billionaires Statistics Dataset**, which contains detailed information on the world's billionaires. The dataset includes data about their businesses, industries, and personal details, providing valuable insights into wealth distribution, business sectors, and demographics of billionaires worldwide.
+
+The analysis uses **MySQL** for data structuring, cleaning, and exploration, along with **Power BI** for data visualization and dashboard creation.
+
+**Dataset Date**: April 2023
 
 ## Dataset
-- **Source**: [Link to Kaggle dataset](https://www.kaggle.com/datasets/nelgiriyewithana/billionaires-statistics-dataset)
-- **Description**: Brief overview of the data
+- **Source**: [Billionaires Statistics Dataset - Kaggle](https://www.kaggle.com/datasets/nelgiriyewithana/billionaires-statistics-dataset)
+- **Description**: This dataset contains statistics on the world's billionaires, including information about their businesses, industries, and personal details. It provides insights into wealth distribution, business sectors, and demographics of billionaires worldwide.
 - **Files**:
-  - `data/raw_data.csv` - Raw dataset
-  - `data/cleaned_data.csv` - Cleaned dataset
-
-## Technologies Used
-- MySQL (for data storage and querying)
-- Power BI (for data visualization and reporting)
-
-## Installation
-1. Clone the repository:
-   ```sh
-   git clone https://github.com/yourusername/project-name.git
-   ```
-2. Navigate to the project directory:
-   ```sh
-   cd project-name
-   ```
-3. Ensure you have MySQL installed and set up the database using the provided SQL scripts.
-
-## Usage
-1. Execute the SQL scripts in order:
-   - `sql/structuring.sql` - Creates database tables
-   - `sql/cleaning.sql` - Cleans and processes raw data
-   - `sql/eda.sql` - Exploratory Data Analysis queries
-2. Load the cleaned dataset into Power BI.
-3. Open the Power BI dashboard (`dashboard.pbix`).
-4. View the final insights in the `reports/dashboard_screenshot.png`.
+  - `data/raw_data.csv`: Raw dataset containing the unprocessed data.
+  - `data/cleaned_data.csv`: Cleaned dataset after data processing and cleaning.
 
 ## Project Structure
 ```
-project-name/
-│-- data/
-│   │-- raw_data.csv         # Raw dataset
-│   │-- cleaned_data.csv     # Cleaned dataset
-│-- sql/
-│   │-- structuring.sql      # Database schema
-│   │-- cleaning.sql         # Data cleaning
-│   │-- eda.sql              # Exploratory Data Analysis
-│-- reports/
-│   │-- dashboard.pbix       # Power BI dashboard file
-│   │-- dashboard_screenshot.png # Dashboard screenshot
-│-- README.md                # Project documentation
+├── data/
+│   ├── raw_data.csv       # Raw data from Kaggle
+│   └── cleaned_data.csv   # Cleaned data after processing
+├── sql/
+│   ├── structuring.sql    # SQL script for structuring the data
+│   ├── cleaning.sql       # SQL script for data cleaning
+│   └── eda.sql            # SQL script for exploratory data analysis
+├── PowerBI/
+│   ├── dashboard.pbix     # Power BI dashboard file
+│   └── dashboard_screenshot.png  # Screenshot of Power BI dashboard
+├── README.md              # Project documentation
+└── requirements.txt       # List of dependencies
 ```
 
-## Results
-Summarize key findings and link to Power BI dashboards.
+## SQL Scripts
+The SQL scripts are organized into three key steps:
+1. **Structuring**: The `structuring.sql` script is used to prepare the database, creating tables and defining relationships between different columns.
+2. **Cleaning**: The `cleaning.sql` script handles missing values, duplicates, and irrelevant data to create a clean dataset for analysis.
+3. **EDA**: The `eda.sql` script performs exploratory data analysis, including generating key statistics and visualizing trends in the data.
 
-## Contributing
-Pull requests are welcome. Please open an issue first to discuss changes.
+## Power BI Dashboard
+A Power BI dashboard was created to visualize key insights from the dataset. The dashboard includes:
+- **Sector Distribution**: Visualizes the number of billionaires across different industries.
+- **Wealth Distribution**: Analyzes the concentration of wealth within top billionaires.
+- **Demographics**: Provides insights into the age, gender, and nationality distribution of billionaires.
+
+### Screenshot of the Dashboard:
+![Power BI Dashboard Screenshot](PowerBI/dashboard_screenshot.png)
+
+## Key Insights
+- **Industry Trends**: The top 5 industries account for over 70% of global billionaire wealth, with the **Technology** and **Finance** sectors leading.
+- **Wealth Distribution**: A significant concentration of wealth is held by a small percentage of billionaires, highlighting global wealth inequality.
+- **Demographics**: The majority of billionaires are over 50 years old, with a large proportion originating from the United States and China.
+
+## Future Improvements
+- Integrating additional data sources, such as **philanthropic activities** of billionaires, could provide a more holistic view of wealth redistribution.
+- Adding **interactive filters** to the Power BI dashboard for a deeper exploration of individual billionaire data by sector, country, and age group.
+
+## Requirements
+To run the SQL scripts and Power BI file, you will need the following:
+- **MySQL**: For running SQL scripts and managing the database.
+- **Power BI Desktop**: For viewing and interacting with the dashboard.
+- **Python** (optional): For additional data analysis or transformation tasks.
 
 ## License
-This project is licensed under the [MIT License](LICENSE).
-
+This project is open-source and available for anyone to use and modify under the MIT license.
