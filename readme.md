@@ -24,8 +24,8 @@ The analysis uses **MySQL** for data structuring, cleaning, and exploration, alo
 │   ├── structuring.sql    # SQL script for structuring the data
 │   ├── cleaning.sql       # SQL script for data cleaning
 │   └── eda.sql            # SQL script for exploratory data analysis
-├── PowerBI/
-│   ├── dashboard.pbix     # Power BI dashboard file
+├── reports/
+│   ├── power_bi_dashboard.pbix     # Power BI dashboard file
 │   └── dashboard_screenshot.png  # Screenshot of Power BI dashboard
 ├── README.md              # Project documentation
 └── requirements.txt       # List of dependencies
