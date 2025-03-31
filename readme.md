@@ -59,7 +59,3 @@ A Power BI dashboard was created to visualize key insights from the dataset. The
 To run the SQL scripts and Power BI file, you will need the following:
 - **MySQL**: For running SQL scripts and managing the database.
 - **Power BI Desktop**: For viewing and interacting with the dashboard.
-- **Python** (optional): For additional data analysis or transformation tasks.
-
-## License
-This project is open-source and available for anyone to use and modify under the MIT license.
