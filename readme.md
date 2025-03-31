@@ -38,10 +38,7 @@ The SQL scripts are organized into three key steps:
 3. **EDA**: The `eda.sql` script performs exploratory data analysis, including generating key statistics and visualizing trends in the data.
 
 ## Power BI Dashboard
-A Power BI dashboard was created to visualize key insights from the dataset. The dashboard includes:
-- **Sector Distribution**: Visualizes the number of billionaires across different industries.
-- **Wealth Distribution**: Analyzes the concentration of wealth within top billionaires.
-- **Demographics**: Provides insights into the age, gender, and nationality distribution of billionaires.
+A Power BI dashboard was created to visualize the key insights derived from the dataset. The dashboard provides interactive elements that allow users to explore various trends and relationships within the data, such as distribution by industry, wealth, and demographic information.
 
 ### Screenshot of the Dashboard:
 ![Power BI Dashboard Screenshot](reports/dashboard_screenshot.png)
